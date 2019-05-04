@@ -1,0 +1,75 @@
+.mt_shop {
+    padding: 10px;
+    .mt_shop_title {
+        font-size: 30px;
+        text-align: center;
+        color: #666;
+    }
+    .mt_shop_content {
+        display: flex;
+        flex-direction: column;
+        .mt_shop_item {
+            border-top: 1px solid #666;
+            margin-top: 10px;
+            .mt_shop_nav {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                .mt_shop_left {
+                    flex: 1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .mt_shop_img {
+                        width: 98%;
+                        text-align: center;
+                    }
+                }
+                .mt_shop_right {
+                    flex: 3;
+                    padding: 10px;
+                    .mt_shop_info_one {
+                        display: flex;
+                        justify-content: space-between;
+                        .mt_shop_info_title {
+                            font-size: 30px;
+                            color: #000;
+                        }
+                        .mt_shop_info_distance {
+                            font-size: 24px;
+                            color: #666;
+                        }
+                    }
+                    .mt_shop_info_two {
+                        display: flex;
+                        justify-content: space-between;
+                        .mt_shop_info_location {
+                            font-size: 24px;
+                            color: #666;
+                        }
+                    }
+                    .mt_shop_info_three {
+                        display: flex;
+                        justify-content: space-between;
+                        .mt_shop_info_price {
+                            font-size: 28px;
+                            color: orangered;
+                        }
+                        .mt_shop_info_count {
+                            font-size: 26px;
+                            color: #666;
+                        }
+                    }
+                    .mt_shop_info_four {
+                        .mt_shop_info_discount {
+                            padding: 5px;
+                            font-size: 22px;
+                            border: 1px solid orangered;
+                            color: orangered;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.mt_group {
+    padding: 5px;
+    .mt_group_title {
+        display: flex;
+        justify-content: space-between;
+        .mt_group_name {
+            font-size: 30px;
+            color: #000;
+        }
+        .mt_group_all {
+            font-size: 25px;
+            color: #666;
+        }
+    }
+    .mt_group_content {
+        overflow-x: auto; //x轴自动滑动
+        white-space: nowrap;
+        .mt_group_nav {
+            width: 33.33%;
+            display: inline-block;
+            margin-right: 10px;
+            .mt_goods_img {
+                width: 100%;
+            }
+            .mt_goods_title {
+                font-size: 26px;
+                text-overflow: ellipsis; //显示省略符号来代表被修剪的文本
+                overflow: hidden; //超出隐藏
+                white-space: nowrap; //文本不换行
+            }
+            .mt_goods_price {
+                display: flex;
+                justify-content: space-around;
+                .new_price {
+                    color: orangered;
+                    font-size: 25px;
+                }
+                .old_price {
+                    color: #666;
+                    font-size: 20px;
+                    text-decoration: line-through;
+                }   
+            }
+        }
+    }
+}
